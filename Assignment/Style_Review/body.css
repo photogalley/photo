@@ -1,0 +1,37 @@
+.Reviews{
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+    z-index: 1;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+.Reviews {
+    position: relative;
+    overflow: hidden;
+}
+
+.Reviews:hover .arrow {
+    display: block;
+}
+.img-fluid{
+    width: 30px;
+    height: 30px;
+}
